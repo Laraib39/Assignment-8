@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 class="heading"><b>STOPWATCH</b></h1>
+
+    <div class="image">
+        <img src="stop-watch-png-1.png" alt="">
+    </div>
+
+    <div class="digits">
+        <h1 id="min"> 00 </h1>
+        <h1 id="sec"> 00 </h1>
+        <h1 id="msec"> 00 </h1>
+    </div>
+
+    <div class="buttons">
+        <button type="button" onclick= "start()" class="btn btn-dark"><b>start</b></button>
+        <button type="button" onclick= "stop()" class="btn btn-dark"><b>stop</b></button>
+        <button type="button" onclick= "reset()" class="btn btn-dark"><b>reset</b></button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
